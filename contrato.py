@@ -40,5 +40,8 @@ for titulo, conteudo in contrato_texto:
         doc.add_heading(titulo, level=2)
     for linha in conteudo.split('\n'):
         doc.add_paragraph(linha)
-
+git clone https://github.com/bealoreto/contrato.git
+cd contrato
 doc.save("Contrato_Criacao_Midias_Digitais.docx")
+python -m venv venv
+.\venv\Scripts\activate
